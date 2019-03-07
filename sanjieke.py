@@ -1,5 +1,6 @@
 import requests
 import sqlite3
+#import jieba
 import json
 
 class Login(object):
@@ -112,8 +113,8 @@ class Login(object):
 
     def inquery_sanjieke(self):
         #批改记录总数
-        sql_correct_total = '''select count(distinct(homework_id)) from correct_list where status != 0'''
-        total = self.conn.execute(sql_correct_total)
+        sql_1 = '''select count(distinct(homework_id)) from correct_list where status != 0''' #一共批改了多少份作业
+        total = self.conn.execute(sql_1)
         print(total)
 
 
@@ -121,7 +122,19 @@ class Login(object):
 
 if __name__ == '__main__':
     login =Login()
-    login.login('15295730742','ygq123456')
+    print('''
+    --------------------------------------------------------
+    ❤欢迎使用三节课助教信息查询系统V1.0!
+    ❤本系统由助教Larus开发，帮助各位助教了解自己的作业批改情况。
+    ❤联系邮箱：hi@larus.me
+    ❤微信公众号：larus01
+    ❤（注：所有内容均保存在本地sqlite3数据库，无任何隐私泄露隐患。
+    --------------------------------------------------------
+    ''')
+    phone = input('请输入三节课后台登录手机号：')
+    password = input('请输入三节课后台登录密码：')
+    login.login(phone,password)
     login.get_correct_total()
     #login.get_correct_list()
     login.inquery_sanjieke()
+
