@@ -111,11 +111,6 @@ class Login(object):
         self.conn.execute(sql)
         self.conn.commit()
 
-    def inquery_sanjieke(self):
-        #批改记录总数
-        sql_1 = '''select count(distinct(homework_id)) from correct_list where status != 0''' #一共批改了多少份作业
-        total = self.conn.execute(sql_1)
-        print(total)
 
 
     
@@ -135,6 +130,5 @@ if __name__ == '__main__':
     password = input('请输入三节课后台登录密码：')
     login.login(phone,password)
     login.get_correct_total()
-    #login.get_correct_list()
-    login.inquery_sanjieke()
+    login.get_correct_list()
 
