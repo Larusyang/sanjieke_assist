@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b8ff64b-5dda-4a72-b630-fe62d352d680" name="Default" comment="">
+    <list default="true" id="7b8ff64b-5dda-4a72-b630-fe62d352d680" name="Default" comment="优化README文档">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sanjieke.py" afterPath="$PROJECT_DIR$/sanjieke.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,22 +13,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$sanjieke.coverage" NAME="sanjieke Coverage Results" MODIFIED="1551273288083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$sanjieke.coverage" NAME="sanjieke Coverage Results" MODIFIED="1551921386504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sanjieke.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sanjieke.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sanjieke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2476">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="468">
+              <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
               <folding>
-                <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-                <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-                <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-                <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-                <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+                <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+                <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+                <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,6 +59,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sanjieke.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -159,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551265234802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化登录">
+      <created>1551920734334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551920734334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化登录">
+      <created>1551921140255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551921140255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -173,10 +198,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37069923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -186,7 +212,7 @@
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -205,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据入库sqlite3" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据入库sqlite3" />
+    <MESSAGE value="优化登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化登录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -217,11 +244,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -231,11 +258,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -245,11 +272,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -259,11 +286,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -273,11 +300,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -287,11 +314,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
@@ -301,26 +328,34 @@
         <state relative-caret-position="-850">
           <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sanjieke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2476">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="468">
+          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
           <folding>
-            <marker date="1551754410694" expanded="true" signature="3185:3546" ph="create table... correct_list" />
-            <marker date="1551754410694" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
-            <marker date="1551754410694" expanded="true" signature="4178:4383" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4708:4709" ph="create table... comment_info" />
-            <marker date="1551754410694" expanded="true" signature="4777:4848" ph="select count... correct_list" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551921131605" expanded="true" signature="3185:3546" ph="create table... correct_list" />
+            <marker date="1551921131605" expanded="true" signature="3569:3784" ph="insert into correct_list... " />
+            <marker date="1551921131605" expanded="true" signature="4178:4383" ph="create table... comment_info" />
+            <marker date="1551921131605" expanded="true" signature="4708:4709" ph="create table... comment_info" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
